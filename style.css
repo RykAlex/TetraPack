@@ -42,11 +42,13 @@ header {
 	margin-right: 392px;
 }
 
-a {
+.menu__list .menu__link {
 	color: #003da6;
+	font-weight: 400;
+	transition: text-shadow 0.3s;
 }
-a:hover {
-	color: #1c652f;
+.menu__list .menu__link:hover {
+	text-shadow: 0 0 0.65px #003da6;
 }
 .menu {
 	font-size: 2rem;
@@ -93,7 +95,7 @@ a:hover {
 	padding-top: 70px;
 	filter: drop-shadow(0px 0px 47px rgba(0, 0, 0, 0.08));
 }
-.sub-menu__list.sub-menu__list_2 {
+.sub-menu__list.sub-menu__list2 {
 	left: -39%;
 	transform: translateX(6%);
 }
